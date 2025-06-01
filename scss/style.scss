@@ -22,7 +22,7 @@ html, body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	font-size: 12px;
+	font-size: 18px;
 }
 
 body {
@@ -39,7 +39,7 @@ header, main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: $spacing;
+	gap: 32px;
 	margin: $spacing;
 }
 
@@ -50,6 +50,7 @@ header, main {
 	display: flex;
 	flex-direction: row;
 	align-items: start;
+	align-items: stretch;
 	gap: $spacing;
 }
 
@@ -59,7 +60,7 @@ header, main {
 	overflow: hidden;
 	background-color: $color-3;
 
-	width: 180px;
+	width: 220px;
 	padding:  $spacing 0 ;
 	color: $color-2;
 	text-decoration: none;
@@ -68,26 +69,29 @@ header, main {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	// gap: 8px;
 
 	&:hover {
 		background-color: $color-overlay-2;
 	}
 
 	&__icon {
-		width: $spacing;
-		height: $spacing;
-		padding: $spacing/2;
+		width: 32px;
+		height: 32px;
+		// padding: $spacing;
 	}
-
+	
 	&__title {
-  		overflow: hidden;
-		text-overflow: ellipsis;
+		text-align: center;
+		white-space: normal;
 	}
-
+	
 	&__url {
-		font-size: 0.8em;
+		font-size: 0.6em;
+		text-align: center;
+		white-space: normal;
 		color: $color-4;
-		text-overflow: ellipsis;
+
 	}
 }
 
