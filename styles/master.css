@@ -14,18 +14,26 @@ body {
   font-weight: 500;
   white-space: nowrap;
   text-decoration: none;
-  color: #737373; }
-
-header, main {
+  color: #737373;
+  width: 80%;
+  max-width: 1000px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 16px; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   gap: 32px;
   margin: 16px; }
 
+.item-group-title {
+  text-align: left;
+  padding-left: 16px; }
+
 .item-group {
-  width: 80%;
-  max-width: 1000px;
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -44,7 +52,8 @@ header, main {
   cursor: pointer;
   display: flex;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  gap: 4px; }
   .item:hover {
     background-color: rgba(0, 0, 0, 0.1); }
   .item__icon {
