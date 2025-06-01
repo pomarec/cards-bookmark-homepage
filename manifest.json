@@ -1,7 +1,7 @@
 {
-    "name": "Basic Bookmark Homepage",
-    "version": "3",
-    "description": "A Basic Bookmark Homepage",
+    "name": "Basic Cards Bookmark Homepage",
+    "version": "1",
+    "description": "A Basic Cards Bookmark Homepage",
     "manifest_version": 3,
     "permissions": [
         "bookmarks",
@@ -26,7 +26,7 @@
     },
     "browser_specific_settings": {
         "gecko": {
-            "id": "k4514793@gmail.com"
+            "id": "cardsbookmarkhomepage@pomarec.github.com"
         }
     }
 }
