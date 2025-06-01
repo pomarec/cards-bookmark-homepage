@@ -1,0 +1,22 @@
+{
+  "name": "cardsbookmarkhomepage",
+  "version": "1.0.0",
+  "description": "Your firefox bookmarks on your homepage in a card layout",
+  "main": "script/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pomarec/cards-bookmark-homepage.git"
+  },
+  "author": "P.O Marec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pomarec/cards-bookmark-homepage/issues"
+  },
+  "homepage": "https://github.com/pomarec/cards-bookmark-homepage#readme",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}
