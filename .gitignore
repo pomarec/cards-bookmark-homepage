@@ -1,1 +1,5 @@
 node_modules/
+.sass-cache/
+master.css
+master.css.map
+my-extension.zip
